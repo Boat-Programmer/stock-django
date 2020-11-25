@@ -1,1 +1,1 @@
-web: gunicorn djangoStock.wsgi:application --log-file -
+web: gunicorn stock_django.wsgi:application --log-file -
